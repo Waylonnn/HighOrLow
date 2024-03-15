@@ -19,7 +19,7 @@ public class Main {
                 } else System.out.println("Sorry, your guess is invalid. Please try again.");
             } else System.out.println("Sorry, your guess is invalid. Please try again.");
             scan.nextLine();
-        }while (!valid);
+        } while (!valid);
         System.out.println("My number was " + num + ".");
         if(guess > num)
             System.out.println("Your guess was too high.");
